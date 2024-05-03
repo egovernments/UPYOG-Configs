@@ -150,11 +150,6 @@ spec:
                         }
                     }
                 }
-
-                stage('Clean Work Space') {
-                    cleanWs()
-                }
-
                 // stage ("Update dashboard") {
                 //         environmentDashboard {
                 //             environmentName(scmVars.BRANCH)  
